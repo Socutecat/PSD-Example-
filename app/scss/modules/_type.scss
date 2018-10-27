@@ -1,0 +1,42 @@
+@font-face{
+	font-family: 'GothamBook';
+	font-style: normal;
+	font-weight: normal;
+	src:url('../fonts/GothamMedium.ttf') format('truetype');
+}
+
+
+@font-face{
+	font-family: 'GothamBold';
+	font-style: normal;
+	font-weight: normal;
+	src:url('../fonts/GothamBold.ttf') format('truetype');
+}
+
+
+body{
+	font-family: 'GothamBook', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	color: var(--white);
+}
+
+
+
+/* typography */
+
+.bgc-white{
+	background-color: var(--gray-150);
+}
+
+.color-dark{
+	color: var(--dark);
+}
+
+.text-center{
+	text-align: center;
+}
+
+.bgc-blue-dark{
+	background-color: var(--blue-dark);
+}

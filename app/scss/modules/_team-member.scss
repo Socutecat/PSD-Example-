@@ -1,0 +1,70 @@
+.padding-140-85{
+	.title{
+		font-size: 37.55px;
+		line-height: 45px;
+		text-transform: uppercase;
+		color: var(--dark);
+		text-align: center;
+		position: relative;
+	}
+	.title-description{
+			color: var(--dark);
+			font-size: 247px;
+			line-height: 210.64px;
+			opacity: .18;
+			font-family: 'Roboto Condensed', sans-serif;
+			font-weight: 400;
+			position: absolute;
+			text-transform: uppercase;
+		}
+		.title-wrap{
+			margin-bottom: 123px;
+		}
+		.blog-description{
+			font-size: 30px;
+			color: var(--dark);
+			text-align: center;
+		}
+		.row{
+			margin-top: 75px;
+			.col-3{
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				flex-basis:100%;
+				margin-bottom: 25px;
+				@media(min-width:768px){
+					flex-basis: 50%;
+				}
+				@media (min-width: 992px){
+					flex-basis: 25%;
+					margin-bottom: 0;
+				}
+				.team-portrait{
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					flex-direction: column;
+					.team-portrait-description{
+						background-color: #fefefe;
+						padding: 10px 25px;
+						margin-top: -30px;
+						h5{
+							font-size: 20px;
+							line-height: 24px;
+							color: var(--blue-dark);
+							text-transform: uppercase;
+							opacity: .9;
+						}
+						span{
+							text-transform: uppercase;
+							color: var(--dark);
+							font-size: 16px;
+						}
+					}
+				}
+
+			}
+		}
+}

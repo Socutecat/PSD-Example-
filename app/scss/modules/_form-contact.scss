@@ -1,0 +1,87 @@
+.form-contact{
+	background-image: url(../img/layer97.png);
+	background-size: cover;
+	background-position: center;
+	.our-contact-form{
+		max-width: 1200px;
+		width: 100%;
+		display: flex;
+		margin: 0 auto;
+		margin-top: 155px;
+		align-items: flex-start;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		// @media screen and (max-width: 767px) {
+		// 	flex-wrap:wrap;
+		// }
+		.input-wrap{
+			flex-basis:33.33%;
+			@media screen and (max-width: 767px) {
+				flex-basis:100%;
+			}
+			padding-left: 15px;
+			padding-right: 15px;
+			margin-bottom: 20px;
+			&:last-of-type{
+				margin-bottom: 0;
+			}
+		}
+		.btn-lg{
+			background-color: var(--blue-dark);
+			padding: 16px 68px;
+			display: inline-block;
+			text-align: center;
+			margin: 0 auto;
+			text-transform: uppercase;
+			text-decoration: none;
+			font-size: 24px;
+			line-height: 1;
+			color: var(--white);
+			transition: all .3s ease-in;
+			&:hover{
+				background-color: var(--white);
+				color: var(--blue-dark);
+			}
+		}
+		.form-contact-input{
+			background-color: transparent;
+			border: 1px solid var(--white);
+			padding: 15px 0 15px 25px;
+			color: var(--white);
+			flex-basis:33.33%;
+			font-family: 'GothamBook', sans-serif;
+			// margin-right: 30px;
+			width: 100%;
+			&:last-of-type{
+				margin-right: 0;
+			}
+		}
+		.area-message{
+			width: 100%;
+			padding-left: 15px;
+			padding-right: 15px;
+			margin-bottom: 40px;
+				textarea{
+				background-color: transparent;
+				margin-top: 40px;
+				color: var(--white);
+				font-family: 'GothamBook', sans-serif;
+				border: 1px solid var(--white);
+				width: 100%;
+				padding: 15px 0 15px 25px;
+				resize: none;
+			}
+		}
+		input::placeholder{
+			color: #fefefe;
+			font-size: 16px;
+			line-height: 36px;
+		}
+		textarea::placeholder{
+			color:#fefefe;
+			font-size: 16px;
+			line-height: 36px
+		}
+		}
+	}
+

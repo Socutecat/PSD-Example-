@@ -1,0 +1,67 @@
+.bgc-dark{
+		background-color: var(--dark);
+			.text-wrapper{
+				padding: 87px 131px 117px 215px;
+				width: 50%;
+			}
+			.text-wrapper span{
+				font-family: 'GothamBook', sans-serif;
+				font-size: 13px;
+				line-height: 24px;
+			}
+			.text-wrapper h5{
+					font-size: 25px;
+					line-height: 36px;
+					text-transform: uppercase;
+					padding-top: 20px
+				}
+			.txt-wrap{
+				margin-top: 50px;
+				margin-bottom: 37px;
+			}
+		}
+		.img-inner{
+			width: 50%;
+		}
+		.img-inner img{
+			width: 100%;
+		}
+
+
+
+.grid{
+	display: flex;
+	flex-wrap:wrap;
+}
+
+@media screen and (max-width: 320px){
+	.bgc-dark{
+		.text-wrapper{
+			width: 100%;
+			padding-left: 15px;
+			padding-right: 15px;
+			padding-bottom: 15px
+		}
+		.img-inner{
+			width: 100%;
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+	}
+}
+
+@media (min-width: 321px) and (max-width: 1199px){
+	.bgc-dark{
+		.text-wrapper{
+			width: 100%;
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+		.img-inner{
+			width: 100%;
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+}
+
+	}

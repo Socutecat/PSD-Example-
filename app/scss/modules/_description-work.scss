@@ -1,0 +1,29 @@
+.description-work{
+	.row{
+		margin-top: 0;
+		.col-6{
+			display: flex;
+			.icon{
+				font-size: 70px;
+				margin-right: 30px;
+			}
+		}
+	}
+}
+
+
+
+/* media  */
+
+
+@media screen and (max-width: 767px){
+	.description-work{
+		.row{
+			.col-6{
+				flex-basis:100%;
+				margin-bottom: 30px;
+				flex-direction: column;
+			}
+		}
+	}
+}
