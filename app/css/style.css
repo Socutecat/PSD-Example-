@@ -3091,7 +3091,7 @@ body {
     flex-direction: column; } }
 
 .comunication {
-  background-image: url(../img/layer87.png);
+  background-image: url(/img/layer87.png);
   background-size: cover;
   background-position: center;
   padding-top: 228px;
